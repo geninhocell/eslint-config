@@ -1,22 +1,25 @@
-# Rocketseat ESLint config
+# geninhocell ESLint config
 
 ## Whats included?
 
 - Standard config base;
 - React plugin;
+- React Native plugin;
 - React Hooks plugin;
 - JSX a11y plugin;
+- @typescript-eslint plugin;
 - Prettier;
+
+## Install the dependencies
+
+```sh
+$ npm i -D eslint @geninhocell/eslint-config
+```
 
 ## Setup react
 
-1. Install the dependencies
-```
-npm i -D eslint @geninhocell/eslint-config
-```
-
-2. Create a `.eslintrc.json` file extending the config:
-```
+1. Create a `.eslintrc.json` file extending the config:
+```json
 {
   "extends": "@geninhocell/eslint-config/react"
 }
@@ -24,12 +27,7 @@ npm i -D eslint @geninhocell/eslint-config
 
 ## Setup react-native
 
-1. Install the dependencies
-```
-npm i -D eslint @geninhocell/eslint-config
-```
-
-2. Create a `.eslintrc.json` file extending the config:
+1. Create a `.eslintrc.json` file extending the config:
 ```
 {
   "extends": "@geninhocell/eslint-config/native"
@@ -37,3 +35,7 @@ npm i -D eslint @geninhocell/eslint-config
 ```
 
 > You can also use a `.eslintrc.js` instead of JSON if you prefer.
+
+## License
+
+[License MIT](https://andreasonny.mit-license.org/2019) © Andrea SonnY
