@@ -19,6 +19,12 @@
     "react-native",
     "react"
   ],
+  "files": [
+    "README.md",
+    "native.js",
+    "react.js",
+    "shared"
+  ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
