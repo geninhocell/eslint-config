@@ -8,17 +8,31 @@
 - JSX a11y plugin;
 - Prettier;
 
-## Setup
+## Setup react
 
 1. Install the dependencies
 ```
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @geninhocell/eslint-config
 ```
 
 2. Create a `.eslintrc.json` file extending the config:
 ```
 {
-  "extends": "@rocketseat/eslint-config/react"
+  "extends": "@geninhocell/eslint-config/react"
+}
+```
+
+## Setup react-native
+
+1. Install the dependencies
+```
+npm i -D eslint @geninhocell/eslint-config
+```
+
+2. Create a `.eslintrc.json` file extending the config:
+```
+{
+  "extends": "@geninhocell/eslint-config/native"
 }
 ```
 
