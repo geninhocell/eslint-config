@@ -1,7 +1,7 @@
 {
   "name": "@geninhocell/eslint-config",
   "author": "geninhocell@gmail.com",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "ESLint configuration used by geninhocell.",
   "main": "index.js",
