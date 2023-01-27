@@ -34,6 +34,15 @@ $ npm i -D eslint @geninhocell/eslint-config
 }
 ```
 
+## Setup NodeJS
+
+1. Create a `.eslintrc.json` file extending the config:
+```
+{
+  "extends": "@geninhocell/eslint-config/node"
+}
+```
+
 > You can also use a `.eslintrc.js` instead of JSON if you prefer.
 
 ## License
