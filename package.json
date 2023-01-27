@@ -23,7 +23,7 @@
     "README.md",
     "native.js",
     "react.js",
-    "node",
+    "node.js",
     "shared"
   ],
   "dependencies": {
