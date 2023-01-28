@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ['./react.js'],
   extends: [
+    './base.js',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
   ],
